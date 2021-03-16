@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <div>
+        <img src="" alt="">
+    </div>
+    <div id="logga">
+        <a href="index2.html"><img src="images/logga.png" alt="" width="150rem"></a>
+    </div>
+    <div>
+        <img src="" alt="">
+    </div>
+</header>
+
+<body>
+    <div id="kategoriSec">
+        <img src="images/search.png" alt="" id="searchlogga" width="25rem" height="25rem">
+        <input type="text" id="kategoriSecSearch" placeholder="Search Category"> 
+        
+        <div id="kategoriButton">
+            <img src="images/filter.png" alt="">
+        </div>
+    </div>
+    <div id="kategorierDiv">
+        
+    </div>
+    <div id='map' style='width: 100vw; height: 17rem;'></div>
+
+    <div id="popCitiesRubrik">
+        Popular cities:
+    </div>
+    <section id="popularCities">
+        <div class="popCity" id="NY">New York</div>
+        <div class="popCity" id="LA">Los Angeles</div>
+        <div class="popCity" id="miami">Miami</div>
+    </section>
+
+    <label for="range">Range:</label>
+    <input type="range" name="range" id="range" step="10">
+    <div id="rangeRes"></div>
+        
+    <div id="search">
+        Search
+    </div>
+
+
+
+
+    <!-- rest info: namn!!, nummer, öppettider!!, kategorier!!, gata!!, hemsida!! -->
+
+    <section id="resultat">
+        <!-- <div id="resultatRubbe">
+            Resultat:
+        </div>
+        <div>
+            <img src="images/restaurant.jpg" alt="" width="343rem">
+        </div>
+        <div class="restDiv">
+            <div id="namnPris">
+                <div id="namn">
+                    Namn
+                </div>
+                <div id="pris">
+                    $$$
+                </div>
+            </div>
+            <div id="cuisines">
+                kategorier
+            </div>
+            <div id="läsMerInfo">
+                <div class="bitBolder centerText marginTop">
+                    Öppettider:
+                </div>
+                <div class="centerText">
+                    Mon-Fri: 5am-5pm Sat: 6am-2pm
+                </div>
+                <div class="bitBolder centerText marginTop">
+                    Telefon:
+                </div>
+                <div class="centerText">
+                    (718) 392-5500
+                </div>
+                <div class="bitBolder centerText marginTop">
+                    Hemsida:
+                </div>
+                <div class="centerText">
+                    www.bajsbajshejhej.com
+                </div>
+                <div class="bitBolder centerText marginTop">
+                    Adress:
+                </div>
+                <div class="centerText marginBot">
+                    36-19 Review Ave Long Island City, NY 11101
+                </div>
+            </div>
+            <div id="läsMer">
+                Läs mer
+            </div>
+        </div> -->
+    </section>
+
+    <!-- <section id="kategoriSec">
+        <div id="kategoriButton">
+            Kategori
+        </div> -->
+
+        <!-- <div id="kategorier">
+            <div class="kategori">American</div>
+            <div class="kategori">Asian</div>
+            <div class="kategori">Barbecue</div>
+            <div class="kategori">Bar Food</div>
+            <div class="kategori">Breakfast</div>
+            <div class="kategori">Burgers</div>
+            <div class="kategori">Californian</div>
+            <div class="kategori">Chicken</div>
+            <div class="kategori">Chinese</div>
+            <div class="kategori">Cocktails</div>
+            <div class="kategori">Coffee & Tea</div>
+            <div class="kategori">Cuban</div>
+            <div class="kategori">Deli Food</div>
+            <div class="kategori">Desserts</div>
+            <div class="kategori">Diner</div>
+            <div class="kategori">Gastropub</div>
+            <div class="kategori">Greek</div>
+            <div class="kategori">Healthy</div>
+            <div class="kategori">Indian</div>
+            <div class="kategori">Italian</div>
+            <div class="kategori">Japanese</div>
+            <div class="kategori">Lunch Specials</div>
+            <div class="kategori">Mediterranean</div>
+            <div class="kategori">Mexican</div>
+            <div class="kategori">Middle Eastern</div>
+            <div class="kategori">Noodles</div>
+            <div class="kategori">Persian</div>
+            <div class="kategori">Salads</div>
+            <div class="kategori">Sandwiches</div>
+            <div class="kategori">Seafood</div>
+            <div class="kategori">Soups</div>
+            <div class="kategori">Subs</div>
+            <div class="kategori">Sushi</div>
+            <div class="kategori">Tapas</div>
+            <div class="kategori">Vegetarian</div>
+            <div class="kategori">Vietnamese</div>
+            <div class="kategori">Wings</div>
+            <div class="kategori">Wraps</div>
+            <div class="kategori">Pizza</div>
+        </div> -->
+    <!-- </section> -->
+
+    <!-- <label for="range">range</label>
+    <input type="range" name="range" id="range" step="10">
+    <div id="rangeRes"></div> -->
+
+    <!-- <label for="antalPerSida">antal per sida</label>
+    <input type="range" name="antalPerSida" id="antalPerSida"> -->
+
+    <!-- <div id="antalPerSidaRes"></div> -->
+
+    <!-- <br>
+
+    <button id="search">search</button>
+
+    <section id="result">
+
+    </section> -->
+
+
+    <script src="js2.js"></script>
+</body>
+
+</html>

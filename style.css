@@ -1,0 +1,227 @@
+/* @media screen and (max-width: 600px) {
+    * {
+        border: 1px solid black;
+        margin-top: 5px;
+    }
+} */
+
+body {
+    margin: 0;
+}
+
+html {
+    width: 100%;
+}
+
+/* * {
+    border: 1px solid black;
+} */
+
+header {
+    background-image: url(images/bakgrund.png);
+    height: 4rem;
+    padding-top: 1.4rem;
+    display: flex;
+}
+
+.poppins {}
+
+.lato {}
+
+#logga {
+    width: fit-content;
+    margin: auto;
+}
+
+#kategoriSec {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    height: 2.5rem;
+}
+
+#kategoriSecSearch {
+    background-color: rgb(233, 233, 233);
+    border-radius: 1.4rem 1.4rem;
+    width: 15rem;
+    padding-left: 1rem;
+    border: none;
+    color: #DF614A;
+}
+
+::placeholder {
+    color: #DF614A;
+}
+
+#searchlogga {
+    margin-top: 0.55rem;
+}
+
+#kategoriButton {
+    border-radius: 1.4rem 1.4rem;
+    background-color: rgb(233, 233, 233);
+    width: 2.5rem;
+}
+
+#kategoriButton img {
+    width: 1.8rem;
+    margin-top: 0.18rem;
+    margin-left: 0.3rem;
+}
+
+#kategorierDiv {
+    margin: 1rem;
+}
+
+#kategorier {
+    width: 341px;
+}
+
+#CategoriesRubrik {
+    color: #31A17C;
+    font-size: 1.43rem;
+}
+
+.kategori {
+    width: fit-content;
+    color: #DF614A;
+    border: 0.2rem solid #DF614A;
+    border-radius: 1rem;
+    padding: 0.15rem 0.4rem 0.05rem 0.4rem;
+}
+
+#flexKategori {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    column-gap: 0.34rem;
+    row-gap: 0.30rem;
+}
+
+#map {
+    width: 100vw;
+}
+
+#popCitiesRubrik {
+    color: #6A6A6A;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+#popularCities {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.3rem 2rem 1.5rem 2rem;
+}
+
+.popCity {
+    color: #DF614A;
+    border: 0.2rem solid #DF614A;
+    border-radius: 1rem;
+    padding: 0.18rem 0.7rem 0.09rem 0.7rem;
+}
+
+label[for=range] {
+    margin-left: 1rem;
+    color: #6A6A6A;
+}
+
+input[type=range] {
+    /* height: 33px; */
+    -webkit-appearance: none;
+    margin: 0rem 1rem 0rem 0.1rem;
+    width: 64%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 0.63rem;
+    background: #DF614A;
+    border-radius: 1rem;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 1.65rem;
+    width: 1.65rem;
+    border-radius: 3rem;
+    background: #DF614A;
+    -webkit-appearance: none;
+    margin-top: -0.5rem;
+}
+
+#rangeRes {
+    margin: 0.5rem 1rem 1.7rem 1rem;
+    text-align: center;
+}
+
+#search {
+    background-color: #DF614A;
+    color: white;
+    text-align: center;
+    width: 60%;
+    height: 2rem;
+    border-radius: 3rem;
+    margin: auto;
+    padding-top: 0.95rem;
+}
+
+.bitBolder {
+    font-weight: 550;
+}
+
+.centerText {
+    text-align: center;
+}
+
+#resultat {
+    margin: 1rem 1rem;
+}
+
+#resultatRubbe {
+    color: #31A17C;
+    font-size: 170%;
+    font-weight: 1000;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+#resultat img {
+    border-radius: 0.7rem;
+}
+
+#namnPris {
+    display: flex;
+    justify-content: space-between;
+}
+
+#namn {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#pris {
+    color: #31A17C;
+}
+
+#cuisines {
+    color: #6A6A6A;
+}
+
+#läsMer {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    height: 1.6rem;
+    border-radius: 3rem;
+    padding-top: 0.4rem;
+    background-color: #DF614A;
+    color: white;
+}
+
+.marginTop {
+    margin-top: 1rem;
+}
+
+.marginBot {
+    margin-bottom: 1rem;
+}
+
+
